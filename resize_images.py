@@ -42,7 +42,7 @@ if __name__ == '__main__':
     parser.add_argument('-y', '--height', type=int, default=500, metavar='',
                         required=False, help='height you want to resized image to be')
     parser.add_argument('-t', '--type', type=str, default='png', metavar='',
-                        required=False, help='type of image you want (png/jpg)')
+                        required=False, help='type of image you want (png/jpg). Default=png')
 
     args = parser.parse_args()
     # replace \'s with /'s for windows ppl
